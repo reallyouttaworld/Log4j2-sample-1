@@ -14,5 +14,7 @@ public class App {
         } catch (Exception e) {
             logger.error("Error occurred!");
         }
+
+        logger.info("Program finished!");
     }
 }
